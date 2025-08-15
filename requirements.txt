@@ -1,5 +1,7 @@
-
-transformers[sentencepiece]
-torch
-sentence-transformers
-faiss-cpu
+transformers[sentencepiece]>=4.30.0
+torch>=2.0.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+pickle-mixin>=1.0.2
+tqdm>=4.65.0
